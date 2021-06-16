@@ -1,0 +1,387 @@
+html {
+    margin-left: 25%;
+    margin-right: 25%;
+    box-sizing: border-box;
+    font-family: 'Playfair Display SC', serif;
+    border-left: 2px solid #615c66;
+    border-right: 2px solid #615c66;
+    border-bottom: 2px solid #615c66;  
+    
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+.media {
+    float: left;
+    width: 25%;
+    text-align: center; 
+    padding-top: 20px;
+}
+
+.media-a {
+    width: 30px;   
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.logo-a {
+    text-align: center;
+    width: 80%;
+    float: none;
+}
+
+.right {
+    float: left;
+    width: 25%;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    overflow: visible;
+}
+
+.main {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.row2 {
+    columns: 3;
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+    padding: 20px;
+}    
+
+
+hr {
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+    color: #615c66;
+    background-color: #615c66;
+}
+
+.row1 {
+    text-align: left;
+    float: left;
+    margin-bottom: 50px;
+  
+}
+
+.column-text {
+    float: left;
+    width: 30%;
+    padding-top: 30%;  
+    position: relative;
+    font-size: 20px;
+}
+
+.text {
+    width: 140%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #615c66;
+    border: 1px solid;
+    border-color:black;
+    padding: 20px;
+    display: block;
+}
+
+.column-pic {
+    float: left;
+    width: 70%; 
+
+}
+
+.pic1 {
+    width: 100%;
+    text-align: center;
+}
+
+.pic3 {
+    width: 80%;
+
+    
+}
+
+.column3-text {
+    width: 99%;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    color: whitesmoke;
+    background-color: #615c66;
+    border: 1px solid;
+    border-color:black;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block
+}
+
+
+.button {
+    border: 1px solid;
+    border-color:black;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    width: 60%;
+    font-size: 14px;
+    color: whitesmoke;
+    background-color: #615c66;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.row3 {
+    text-align: center;
+    break-after: column;
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+.column-pic-right {
+    float: left;
+    width: 70%;
+}
+
+
+.column-text-right {
+    float: left;
+    width: 30%;
+    padding-top: 30%;  
+    position: relative;
+    font-size: 20px;
+}
+
+.text-right {
+    width: 140%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #615c66;
+    border: 1px solid;
+    border-color:black;
+    padding: 20px;
+    position: relative;
+    display: block;
+    transform: translate(-38%);  
+}
+
+footer {
+    width: 100%;
+    background-color: #c7c7c7;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 70px;
+} 
+
+.logo-b {
+     text-align: center;
+     width: 200px;  
+     padding-top: 10px;
+ }
+
+ .nav-footer {
+    padding-top: 10px;
+    font-size: 10px;
+ }
+
+ .media-footer {
+    float: left;
+    width: 100%;
+    text-align: center; 
+    background-color: #c7c7c7;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ }
+
+ .teenused-text {
+    width: 220%;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 1.5;
+    background-color: #615c66;
+    font-family: 'Times New Roman', serif;
+    border: 1px solid;
+    border-color:black;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.teenused-text-right {
+    width: 220%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #615c66;
+    line-height: 1.5;
+    font-family: 'Times New Roman', serif;
+    border: 1px solid;
+    border-color:black;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+    transform: translate(-55%);   
+}
+
+.content {
+    width: 70%;
+    text-align: center;
+    color: black;
+    line-height: 1.5;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 0;
+    text-align: justify;
+
+}
+
+
+
+                @media only screen and (max-width:1200px) {
+                    
+                    html {
+                        margin-left: 0;
+                        margin-right: 0;
+                    } 
+                    
+                    
+
+                    .media , .logo, .contact {
+                        float: left;
+                        width: 100%;
+                        text-align: center;
+                        columns: 1; 
+                    }
+
+                    .nav a {
+                        width: 100%;
+                        text-align: center;
+                        color: black;
+                        display: block;
+                        padding: 1px;
+                        font-size: 20px;
+                    }
+
+                    .main {
+                        display: block;
+                        text-align: center;
+                    }
+
+                    .row2 {
+                        columns: 1;
+                        margin: 0;
+                        width: 100%;
+                    }
+
+                    .column-text {
+                        font-size: 14px;
+                        padding-top: 20%;
+                    }
+
+                    .column-text-right {
+                        font-size: 14px;
+                        padding-top: 20%;
+                        display: block;
+                    }
+
+                    .text {
+                        width: 160%;        
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        display: block;
+                    }
+
+                    .text-right {
+                        width: 160%;        
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        display: block;
+                        transform: translate(-50%); 
+                    }
+                    
+                    .button a{
+                        width: 100%;
+                        display: block;
+                        text-align: center;
+                        margin: 0;
+                        
+                    }
+
+                    .nav-footer a{
+                        width: 100%;
+                        text-align: center;
+                        display: block;
+                        padding: 1px;
+                        font-size: 18px;
+                       
+                    }
+
+                    .row1 a{
+                        display: block;
+                        margin-bottom: 20px;
+                        width: 100%;
+                        margin: 0;
+                    }
+
+                    .teenused-text {
+                        width: 300%;        
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        margin-top: 55px;
+                        font-size: 12px;
+                        display: block;
+                    }
+
+                    .teenused-text-right {
+                        width: 300%;        
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        margin-top: 60px;
+                        margin-left: -5px;
+                        font-size: 12px;
+                        transform: translate(-70%); 
+                    }
+
+                    .row3 {
+                        width: 100%;
+                        display: block;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    .content {
+                        width: 100%;
+                        font-size: 18px;
+                    }
+                    
+                }
